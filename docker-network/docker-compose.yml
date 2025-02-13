@@ -1,0 +1,17 @@
+services:
+  web:
+    image: nginx
+    ports:
+      - "8086:80"
+    networks:
+      - mynetwork
+
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
