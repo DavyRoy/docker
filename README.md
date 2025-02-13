@@ -74,7 +74,7 @@ docker run -d -p 3000:3000 my-node-app
 ```
 
 `Cкриншоты
-![docker-node.png](ссылка на скриншот 2)`
+![docker-node.png](https://github.com/DavyRoy/docker/blob/main/my-node/images/docker-node.png)`
 
 ---
 
@@ -112,7 +112,7 @@ docker-compose down
 ```
 
 `Cкриншоты
-![docker-network.pmg](ссылка на скриншот)`
+![docker-network.pmg](https://github.com/DavyRoy/docker/blob/main/docker-network/images/docker-network.png)`
 
 ---
 
