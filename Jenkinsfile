@@ -4,6 +4,7 @@ pipeline {
         stage('Проверка связи') {
             steps {
                 echo "Привет из GitHub!"
+                echo "Новая сборка!"
             }
         }
     }
